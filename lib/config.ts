@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "Predloži mi cijenu najma jedrilice s 4 kabine u Hrvatskoj u travnju 2026.",
+    prompt: "Predloži mi cijenu najma jedrilice s 4 kabine u Hrvatskoj u travnju 2026.",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Slobodno me pitajte...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Kako vam mogu pomoći?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
